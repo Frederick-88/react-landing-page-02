@@ -243,7 +243,15 @@ function Footer() {
 
             {/* Copyrights note */}
             <div className="text-gray-400 text-sm mr-4">
-              &copy; chenfrederick.com - All rights reserved.
+              &copy;&nbsp;
+              <a
+                className="text-blue-500 hover:underline"
+                href="https://www.chenfrederick.com/"
+                target="_blank"
+              >
+                ChenFrederick.com
+              </a>
+              &nbsp; - All rights reserved.
             </div>
           </div>
         </div>
